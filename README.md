@@ -24,3 +24,9 @@ assert(slug == "pokemon-yellow")  # expected output
 ```txt
 pokemon-yellow
 ```
+
+## Installation
+Download `sluggify.py` and place it in your project's root
+
+## TODO
+- [ ] Publish to PyPI
