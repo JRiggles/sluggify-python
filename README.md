@@ -16,6 +16,7 @@ None
 ## Example
 ```python
 import sluggify
+
 slug = sluggify.sluggify("Pokémon Yellow!")
 print(slug)
 assert(slug == "pokemon-yellow")  # expected output
