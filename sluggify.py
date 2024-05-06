@@ -127,6 +127,7 @@ def sluggify(text: str) -> str:
     slug = sub('^-+', '', slug)
     # remove trailing dashes
     slug = sub('-+$', '', slug)
+    # make lowercase
     slug = slug.lower()
     return slug
 
